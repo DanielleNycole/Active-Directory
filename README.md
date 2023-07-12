@@ -25,3 +25,6 @@ From here I tested out user permissions, disabiling accounts, and reset password
 - <b>Windows 10</b>
 - <b>Windows Server 2019 </b>
 
+<h2>Problems I ran into and how I solved them</h2>
+<b>When setting up the second VM, I kept getting met with a server set up. I deleted and re-set up the VM at least 6 times before realizing I wasn’t getting Windows 10, because I forgot to download the Windows 10 ISO and was using Server 2019. My error was using Server 2019 and was setting up the exact same parameters that I was using for the Domain Control VM, so of course it was going to produce the same result. Once I figured out what the issue was, I set up Windows 10 with no issue at all and was able to use the Client VM to test user permissions.
+</b>
